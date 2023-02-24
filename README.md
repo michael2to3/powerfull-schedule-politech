@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+# 💪 Powerfull Schedule Politech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub issues](https://img.shields.io/github/issues/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/issues)
+[![GitHub forks](https://img.shields.io/github/forks/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/network)
+[![GitHub stars](https://img.shields.io/github/stars/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/stargazers)
+[![GitHub license](https://img.shields.io/github/license/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/blob/main/LICENSE)
 
-## Available Scripts
+Powerfull Schedule Politech is a web application that displays the schedule for Politech, a college in Ukraine. It is built using React, TypeScript and is designed to be fast and up-to-date. The application retrieves data from another project of mine, Pretty CalDAV Politech Schedule, in JSON format, and presents it in an easy-to-read format.
+## 🚀 Features
 
-In the project directory, you can run:
+- Displays the schedule for Politech in a user-friendly format
+- Retrieves data from the Pretty CalDAV Politech Schedule server
+- Allows users to get a URL for the server to retrieve the schedule in iCal format, which can be integrated with other calendar software such as Google, Bing, and Apple
 
-### `npm start`
+## 💻 Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the application, follow these steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Clone this repository to your local machine
+- Navigate to the root directory of the project
+- Run `npm install` to install the necessary dependencies
+- Run `npm start` to start the application
+- Open `http://localhost:3000` in your web browser to view the application
 
-### `npm test`
+## 🔧 Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use the application, follow these steps:
 
-### `npm run build`
+- Open the application in your web browser by navigating to http://localhost:3000
+- Enter the name of the group whose schedule you wish to view
+- Select the date range for which you wish to view the schedule
+- Click the "Get Schedule" button to view the schedule
+- To get a URL for the server to retrieve the schedule in iCal format, click the "Get iCal URL" button
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🐳 Using Docker and Docker Compose
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project can be run using Docker and Docker Compose, which simplifies the process of setting up and running the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get started, make sure you have Docker and Docker Compose installed on your system.
+Running the Application
 
-### `npm run eject`
+To start the application using Docker Compose, run the following command from the project directory:
+```bash
+docker-compose up
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This will start the application and its dependencies in Docker containers.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can then access the application by navigating to http://localhost:3000 in your web browser.
+Stopping the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To stop the application and its containers, run the following command:
+```bash
+docker-compose down
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This will stop and remove the Docker containers used by the application.
 
-## Learn More
+For more information on using Docker and Docker Compose, please refer to the official documentation:
+- [Docker](https://docs.docker.com/engine/reference/commandline/dockerd/)
+- [Docker Compose](https://docs.docker.com/compose/compose-file/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👨‍💻 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! If you would like to contribute to the project, please follow these steps:
+
+- Fork the repository
+- Create a new branch for your feature or bug fix
+- Make your changes and commit them with descriptive commit messages
+- Push your changes to your forked repository
+- Submit a pull request to the main repository
+
+## 🙏 Credits
+
+The following open-source libraries were used in the creation of this project:
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 📝 License
+
+This project is licensed under the License. See the [LICENSE](https://github.com/michael2to3/powerfull-schedule-politech/blob/main/LICENSE) file for details.
