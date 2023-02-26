@@ -4,6 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/network)
 [![GitHub stars](https://img.shields.io/github/stars/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/stargazers)
 [![GitHub license](https://img.shields.io/github/license/michael2to3/powerfull-schedule-politech)](https://github.com/michael2to3/powerfull-schedule-politech/blob/main/LICENSE)
+[![Codecov](https://img.shields.io/codecov/c/github/michael2to3/powerfull-schedule-politech)](https://codecov.io/gh/michael2to3/powerfull-schedule-politech)
 
 Powerfull Schedule Politech is a web application that displays the schedule for Politech, a college in Ukraine. It is built using React, TypeScript and is designed to be fast and up-to-date. The application retrieves data from another project of mine, Pretty CalDAV Politech Schedule, in JSON format, and presents it in an easy-to-read format.
 ## 🚀 Features
