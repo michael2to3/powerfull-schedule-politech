@@ -65,7 +65,7 @@ interface ScheduleProps {
   date: string;
   lessons: Lesson[];
 }
-function Schedule(data: any) {
+function Schedule(data: ScheduleProps) {
   return (<div>Schedule</div>);
 }
 
